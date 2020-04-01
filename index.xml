@@ -6,10 +6,21 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2020 11:36:35 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2020 12:15:02 -0400</lastBuildDate>
     
 	<atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Small or Big</title>
+      <link>https://ianbruyere.github.io/post/small-or-big/</link>
+      <pubDate>Wed, 01 Apr 2020 12:15:02 -0400</pubDate>
+      
+      <guid>https://ianbruyere.github.io/post/small-or-big/</guid>
+      <description>Sprinkled throughout any tutorial are implications that the presented paradigm will not bear weight. That your idea, fully realized, will quickly overflow the container of &amp;ldquo;hello world&amp;rdquo;. Tutorials always have the scent of primary school, preparing you for a life that doesn&amp;rsquo;t exist.
+Before the structure collapses, or before building ensues ask:
+&amp;ldquo;Is my project small or big?&amp;rdquo;</description>
+    </item>
     
     <item>
       <title>Here We Go Again</title>
