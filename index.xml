@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>https://ianbruyere.github.io/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Apr 2020 11:36:35 -0400</lastBuildDate>
+    
+	<atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Here We Go Again</title>
+      <link>https://ianbruyere.github.io/post/here-we-go-again/</link>
+      <pubDate>Wed, 01 Apr 2020 11:36:35 -0400</pubDate>
+      
+      <guid>https://ianbruyere.github.io/post/here-we-go-again/</guid>
+      <description>I can’t help it; writing is both a noxious and intoxicating fume, I trail hopelessly in the wake of its caboose. Here comes another blog.</description>
+    </item>
+    
+  </channel>
+</rss>
