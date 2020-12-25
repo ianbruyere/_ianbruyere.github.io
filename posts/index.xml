@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ian&#39;s Blog</title>
-    <link>https://ianbruyere.github.io/</link>
-    <description>Recent content on Ian&#39;s Blog</description>
+    <title>Posts on Ian&#39;s Blog</title>
+    <link>https://ianbruyere.github.io/posts/</link>
+    <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 21:31:17 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 24 Dec 2020 21:31:17 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Weekly Commit #1</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-1/</link>
@@ -14,16 +14,6 @@
       
       <guid>https://ianbruyere.github.io/posts/the-weekly-commit-1/</guid>
       <description>Week 1 The Doing Made a CLI in python to process some Personal Training Data. It&amp;rsquo;s standard as dataprocessing goes: input a csv, clean it, outputs interesting information in csv. Other than being practically useful for myself, it allowed me to scrape the rust off my Python. The Python Standard Library is vast, and my goal of having it close at hand is only possible through constant practice. Sudden;y having full-time work day disrupted my rhythm; doing some personal coding is a sign I haven&amp;rsquo;t lost the beat.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://ianbruyere.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://ianbruyere.github.io/about/</guid>
-      <description>Welcome!
-This blog is about my experience learning and building in the wonderful world of code.</description>
     </item>
     
   </channel>

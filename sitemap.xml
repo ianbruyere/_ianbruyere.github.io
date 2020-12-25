@@ -3,16 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ianbruyere.github.io/</loc>
+    <lastmod>2020-12-24T21:31:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ianbruyere.github.io/posts/</loc>
+    <lastmod>2020-12-24T21:31:17-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ianbruyere.github.io/posts/the-weekly-commit-1/</loc>
+    <lastmod>2020-12-24T21:31:17-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ianbruyere.github.io/about/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://ianbruyere.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>https://ianbruyere.github.io/</loc>
   </url>
   
   <url>
