@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Dec 2020 21:31:17 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 31 Dec 2020 23:22:27 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #2</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-2/</link>
+      <pubDate>Thu, 31 Dec 2020 23:22:27 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-2/</guid>
+      <description>Week 2 The Doing Not too much doing. The crush of Christmas and New Years being what it is. Mainly finding the threads of where I left off in my own code. Mainly in the testing section, simply need to remember where I was questing.
+Learning Did some brief overview of security stuff. Mainly laying down some lead lines for future(far off) endeavors. Nothing much.
+Near-Future Goals About the same. Start on my project in earnest as time and sanity allows, also keep up with my own small projects as buffers against code-block and staleness.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #1</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-1/</link>
