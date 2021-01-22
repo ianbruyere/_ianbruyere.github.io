@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jan 2021 23:21:06 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 21 Jan 2021 23:20:06 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #5</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-5/</link>
+      <pubDate>Thu, 21 Jan 2021 23:20:06 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-5/</guid>
+      <description>The Doing Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip&amp;hellip;it failed with the longest and most unhelpful error I&amp;rsquo;ve ever seen. So I switch to my main project thinking it&amp;rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #4</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-4/</link>
