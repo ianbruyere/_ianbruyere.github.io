@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Ian&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 21 Jan 2021 23:20:06 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Jan 2021 23:45:56 -0500</lastBuildDate><atom:link href="https://ianbruyere.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Weekly Commit #6</title>
+      <link>https://ianbruyere.github.io/posts/the-weekly-commit-6/</link>
+      <pubDate>Thu, 28 Jan 2021 23:45:56 -0500</pubDate>
+      
+      <guid>https://ianbruyere.github.io/posts/the-weekly-commit-6/</guid>
+      <description>As a continuation of last week: deleting the old gcc files had no detrimental effect on my computer. However, hugo this time(since now I don&amp;rsquo;t trust brew) was a bit of pain. Now I think it&amp;rsquo;s all sorted and honestly, learned even more about the Linux shell environment. I&amp;rsquo;m a young whippersnapper when it comes to Linux and in a lot of ways computers in general, so I&amp;rsquo;m not tearing through the shell ripping apart build processes or anything like that&amp;hellip;yet; Linux can be as wild as you want but I&amp;rsquo;m glad I can take it at my own pace.</description>
+    </item>
+    
     <item>
       <title>The Weekly Commit #5</title>
       <link>https://ianbruyere.github.io/posts/the-weekly-commit-5/</link>
