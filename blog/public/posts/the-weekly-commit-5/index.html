@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.80.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="" />
+  <meta property="og:url" content="https://ianbruyere.github.io/posts/the-weekly-commit-5/" />
+  <link rel="canonical" href="https://ianbruyere.github.io/posts/the-weekly-commit-5/" /><link rel="alternate" type="application/atom+xml" href="https://ianbruyere.github.ioindex.xml" title="Ian&#39;s Blog">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/ianbruyere.github.io"
+      },
+      "articleSection" : "posts",
+      "name" : "The Weekly Commit #5",
+      "headline" : "The Weekly Commit #5",
+      "description" : "The Doing Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip\u0026hellip;it failed with the longest and most unhelpful error I\u0026rsquo;ve ever seen. So I switch to my main project thinking it\u0026rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc.",
+      "inLanguage" : "en-US",
+      "author" : "",
+      "creator" : "",
+      "publisher": "",
+      "accountablePerson" : "",
+      "copyrightHolder" : "",
+      "copyrightYear" : "2021",
+      "datePublished": "2021-01-21 23:20:06 -0500 EST",
+      "dateModified" : "2021-01-21 23:20:06 -0500 EST",
+      "url" : "https:\/\/ianbruyere.github.io\/posts\/the-weekly-commit-5\/",
+      "keywords" : [  ]
+  }
+</script>
+<title>The Weekly Commit #5 - Ian&#39;s Blog</title>
+  <meta property="og:title" content="The Weekly Commit #5 - Ian&#39;s Blog" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="The Doing Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip&hellip;it failed with the longest and most unhelpful error I&rsquo;ve ever seen. So I switch to my main project thinking it&rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc." />
+  <meta name="description" content="The Doing Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip&hellip;it failed with the longest and most unhelpful error I&rsquo;ve ever seen. So I switch to my main project thinking it&rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc." />
+  <meta property="og:locale" content="en-us" />
+
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css" />
+  <link rel="stylesheet" href="/css/github-markdown.css" />
+  <link rel="stylesheet" href="/css/highlight/tomorrow.min.css" />
+  <link rel="stylesheet" href="/css/index.css">
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="Ian&#39;s Blog">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arvo|Permanent+Marker|Bree+Serif" rel="stylesheet">
+  
+  
+
+  
+</head>
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+<header>
+  <div class="signatures site-title">
+    <a href="/">Ian Bruyere</a>
+  </div>
+</header>
+<div class="row end-xs">
+  
+  
+</div>
+<div class="header-line"></div>
+
+        </div>
+        <header class="post-header">
+          <h1 class="post-title">The Weekly Commit #5</h1>
+          
+          <div class="row post-desc">
+            <div class="col-xs-6">
+              
+              <time class="post-date" datetime="2021-01-21 23:20:06 EST">
+                21 Jan 2021
+              </time>
+              
+            </div>
+            <div class="col-xs-6">
+              
+            </div>
+          </div>
+          
+        </header>
+
+        <div class="post-content markdown-body">
+          
+          <h3 id="the-doing">The Doing</h3>
+<p>Debugging my system. Something strange was happening when my python venv were suddenly not finding any installed packages-e.g. gym not found- and when I tried to install them with pip&hellip;it failed with the longest and most unhelpful error I&rsquo;ve ever seen. So I switch to my main project thinking it&rsquo;s maybe just a problem with the one venv(only switching AFTER I tried to remake the venv, reinstall the package, run the thing etc.) and same thing occurs. Somewhere in the list of failures(my main project has a long list of requirements I tried reinstalling) something says something about brew. Now I have brew on my system but it&rsquo;s only their for hugo and it has nothing to do with Python and has never been present in my projects. So I follow a rabiit hole and than I decide I should update my system and restart and hope it magically fixes the issue. I&rsquo;ve had these niggling gcc packages that refuse to update, so since I&rsquo;ve had it up to here with them blocking my google chrome update and workflowy(pamac updates alphabetically it seems) I try to resolve them. Which leads me to learn where my configs live(/etc), my logs(/var) live, and where the mysterious config.log file lives (which when you google is significantly harder than you might think to get a straight answer especially since many people include that part of the error message in their Stack Overflow/forum question but not where that file actually is and than every user who comes afer knows where it is and so thus fails to mention it&rsquo;s location like it&rsquo;s trivial. config.log lives in /var/tmp/<strong>whatever-program-you-are-running&rsquo;s-name</strong> as a result of the ./configure which as best I can <em>make</em> out it&rsquo;s a make file that pamac uses and I haven&rsquo;t found where it lives yet, another so-called <em>given</em>. So for example I was debugging gcc-8-something-something so here is the path to the config.loge: /var/tmp/pamac-build-ian/gcc8/src/gcc-build.) Which led to some posts that seemed highly specific to the user and also a lot were from 8+ years ago and stuff ain&rsquo;t the same. I knew these were old gcc but pamac literally said it had installed them ~1 year ago as a build dependency so I wanted to at least try to find the solution. In the end I didn&rsquo;t. I blew them away. Nothing broke yet. I think they were a vestigal install of me trying to make certain Steam games compatible on my Linux but we&rsquo;ll see&hellip; I&rsquo;m restarting my computer after this post.</p>
+<h3 id="the-learning">The Learning</h3>
+<p>Been learning a bit about JUnit, due to work. It&rsquo;s implementation is in a naive state so I&rsquo;m hoping to optimize and build it out. Something of a personal undertaking, mainly cause I&rsquo;m new and so have lots of free time on my hands still. And while not exactly Java Intensive I need/want to learn more about Java and I still have to work with all these funky OO stuff that I&rsquo;ve understood in my head but now have to write out. Python being my main tool means I know the OO stuff but Python isn&rsquo;t that strict on it and you have other options. Java is completely built around classes. Everything is a class. I&rsquo;ve seen what people are talking about when they say Java is halfway between Python(everything in Python is an object) and C++(the syntax, the classes).</p>
+<h3 id="the-future">The Future</h3>
+<p>Hopefully my computer works. My python venv work without me having to troubleshoot. They probably won&rsquo;t, so troubleshooting is in my future. Whoot.</p>
+
+        </div>
+
+        <div class="row middle-xs">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            
+          </div>
+        </div>
+
+        
+        
+
+        
+        
+        <div style="height: 50px;"></div>
+        
+        
+
+        <div class="site-footer">
+  
+  <div class="site-footer-item">
+    <a href="https://github.com/ianbruyere" target="_blank">Github</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="https://www.linkedin.com/in/ian-bruyere" target="_blank">LinkedIn</a>
+  </div>
+  
+  <div class="site-footer-item">
+    <a href="/about/index.html" target="_blank">About</a>
+  </div>
+  
+  
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <script src="/js/highlight.pack.js"></script>
+
+
+<script>
+  hljs.initHighlightingOnLoad();
+  
+  
+  
+    
+    
+  
+</script>
+
+  
+
+</body>
+
+</html>
